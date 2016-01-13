@@ -1,8 +1,18 @@
 <html>
 <body>
+<script src="traceur.js"></script>
+<script src="traceur-runtime.js"></script>
+<script src="rulerz.js"></script>
+
+<script>
+    //var rule = new Rule('a + b > 50');
+
+    var parser = new Parser();
+    var ruler = new Ruler();
+    ruler.assert('a + b > 50');
 
 
-
+</script>
 
 </body>
 </html>
